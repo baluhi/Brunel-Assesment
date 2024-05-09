@@ -1,0 +1,277 @@
+.container{
+    width: 1000px;
+}
+
+.hero {
+  font-family: Covered By Your Grace;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2da950;
+  font-family: "Covered By Your Grace", cursive;
+  font-style: normal;
+}
+.hero-main {
+  display: flex;
+}
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.heroImage {
+  position: relative;
+  width: 506.98px;
+  background-color: #d9d9d9;
+  height: 546.27px;
+  top: 80px;
+  left: 200.69px;
+  gap: 0px;
+  border-radius: 50.7px;
+  opacity: 0px;
+}
+.image {
+  position: relative;
+  width: 505.65px;
+  height: 545.29px;
+
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50.7px;
+}
+.hero-image-text {
+  position: relative;
+  width: 398px;
+  height: 192px;
+  top: 100px;
+  left: 400px;
+  gap: 0px;
+  opacity: 0px;
+}
+.hero-image-text p {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.explore-btn {
+  position: relative;
+  width: 245px;
+  height: 88px;
+  font-weight: 600;
+  font-size: 20px;
+  top: 220px;
+  left: 50px;
+  padding: 31px 40px 31px 40px;
+  gap: 16px;
+  border-radius: 100px;
+  color: #ffff;
+  opacity: 0px;
+  background-color: #1c1c1c;
+}
+.explore-btn svg {
+  position: relative;
+  left: 20px;
+  top: 4px;
+}
+.explore-btn:hover{
+    background-color: rgb(141, 225, 146);
+    cursor: pointer;
+    color: #0c0b0b;
+    transition: ease-in 1s;
+}
+.days-btn {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 245px;
+  border: none;
+  height: 88px;
+  top: 781.71px;
+  left: 148.19px;
+  padding: 16px 32px 16px 16px;
+  gap: 14px;
+  border-radius: 111.54px;
+  box-shadow: 0 15.21px 35.49px 0 rgba(0, 0, 0, 0.09);
+  opacity: 0px;
+}
+.days-btn b {
+  font-family: 'Manrope';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  text-align: left;
+}
+.days-btn:hover{
+    background-color: rgb(17, 16, 16);
+    cursor: pointer;
+    color: #fff;
+    transition: ease-in 1s;
+}
+.btn-div{
+    position: relative;
+    top: -15px;
+    left:200px;
+}
+.btn-div p{
+    font-family: 'Manrope';
+font-size: 16px;
+font-weight: 500;
+line-height: 20.8px;
+text-align: left;
+color: #828282;
+}
+.card1 {
+  position: absolute;
+  width: 267.82px;
+  height: 239px;
+  top: 462px;
+  left: 55px;
+  padding: 30px 0px 0px 0px;
+  gap: 10px;
+
+  background-color: white;
+  box-shadow: 0 22.59px 36.14px 0 rgba(30, 30, 30, 0.09);
+  border-radius: 27.11px;
+  opacity: 0px;
+}
+.card1 svg {
+  position: absolute;
+  bottom: 170px;
+}
+.card1 p {
+  font-family: Switzer;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  bottom: 125px;
+}
+.text p {
+  position: relative;
+  top: 85px;
+  width: 75%;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #828282;
+  border: 1px solid rgb(151, 145, 145);
+}
+
+.card2 {
+  width: 290.49px;
+  position: absolute;
+  height: 239px;
+  top: 726px;
+  background-color: #002e18;
+  left: 499px;
+  padding: 34px 30px 40px 36px;
+  gap: 20px;
+  border-radius: 28.36px;
+  border: 1.18px 0px 0px 0px;
+  opacity: 0px;
+}
+.card2 p {
+  font-family: Switzer;
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  color: #ffff;
+  text-align: left;
+}
+
+.card2 p span {
+  font-family: Switzer;
+  font-size: 22.81px;
+  font-weight: 500;
+  line-height: 31.94px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #a6a3a0;
+}
+
+.card2 .price-desc {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #cccccc;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .hero {
+      font-size: 28px;
+      line-height: 32px;
+    }
+  
+    .hero-image-text {
+      width: 100%;
+      max-width: none;
+      left: 0;
+      text-align: center;
+    }
+  
+    .explore-btn,
+    .days-btn {
+      width: 100%;
+      max-width: none;
+      left: 0;
+      text-align: center;
+    }
+  
+    .card1,
+    .card2 {
+      width: 100%;
+      max-width: none;
+      left: 0;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .hero {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  
+    .hero-image-text p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  
+    .explore-btn,
+    .days-btn {
+      font-size: 14px;
+    }
+  
+    .card1,
+    .card2 {
+      padding: 20px;
+    }
+  }

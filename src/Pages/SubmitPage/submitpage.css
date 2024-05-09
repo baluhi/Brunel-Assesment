@@ -1,0 +1,119 @@
+.submitContainer {
+  width: 1440px;
+  height: 800px;
+  gap: 0px;
+  opacity: 0px;
+}
+.submitContent {
+  position: absolute;
+  width: 718px;
+  height: 357px;
+  top: 221px;
+  left: 361px;
+  align-items: center;
+  text-align: center;
+  gap: 41px;
+  opacity: 0px;
+}
+
+.submitContent svg {
+  width: 80px;
+  height: 80px;
+  gap: 25px;
+  opacity: 0px;
+}
+.submitCenter {
+  width: 718px;
+  gap: 16px;
+  opacity: 0px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.submitCenter p {
+  width: 237px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Covered By Your Grace";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  color: #2da950;
+}
+
+.submitBottom h4 {
+  font-family: "Manrope";
+  height: 67px;
+  gap: 0px;
+  opacity: 0px;
+  color: #1c1c1c;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.submitBottom p {
+  font-family: "Manrope";
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  text-align: center;
+  color: #727272;
+}
+.submitBottom span {
+  font-family: "Manrope";
+  position: absolute;
+  width: 718px;
+  height: 26px;
+  top: 350px;
+  left: 1px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+
+  
+  /* Media queries for different screen sizes */
+  @media screen and (max-width: 768px) {
+    .submitContent {
+      top: 30%;
+    }
+    
+    .submitCenter p {
+      font-size: 24px;
+    }
+  
+    .submitBottom h4 {
+      font-size: 40px;
+    }
+  
+    .submitBottom p {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .submitContent {
+      top: 40%;
+    }
+  
+    .submitCenter p {
+      font-size: 20px;
+    }
+  
+    .submitBottom h4 {
+      font-size: 32px;
+    }
+  
+    .submitBottom p {
+      font-size: 16px;
+    }
+  }

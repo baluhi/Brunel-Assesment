@@ -1,0 +1,26 @@
+.footer-container {
+  height: 100px;
+  width: 1376px;
+  margin-left: 15px;
+  background-color: #f5f5f4;
+  border-radius: 20px;
+  top: 135px;
+  gap: 20px;
+  opacity: 0px;
+}
+
+.footer-content {
+  width: 1200px;
+  display: flex;
+  margin-left: 70px;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.f-right {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}

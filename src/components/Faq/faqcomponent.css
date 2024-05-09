@@ -1,0 +1,96 @@
+.faq-container {
+  position: relative;
+  width: 1376px;
+  height: 749px;
+  display: flex;
+  justify-content: space-between;
+
+  top: 32px;
+  left: 15px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+  background-color: #e8eee7;
+}
+
+.faq-left-text {
+  position: relative;
+  width: 405px;
+  height: 111px;
+  top: 80px;
+  left: 94.5px;
+  gap: 20px;
+  opacity: 0px;
+}
+.faq-left-text p {
+  font-family: "Covered By Your Grace";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #9e9d9d;
+}
+
+.faq-left-text h4 {
+  font-family: "Manrope";
+  width: 405px;
+  height: 66px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.union {
+  position: relative;
+
+  top: 150px;
+  gap: 0px;
+
+  opacity: 0.4px;
+}
+.faq-right {
+  position: absolute;
+
+  width: 581px;
+  height: 538px;
+  top: 137px;
+  left: 721px;
+  gap: 36px;
+  opacity: 0px;
+}
+.faq-right-text div p {
+  font-family: "Manrope";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+#span{
+  font-family: "Manrope";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #617275;
+}
+@media only screen and (max-width: 768px) {
+    .faq-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+  
+    .faq-left-text,
+    .faq-right {
+      width: 50%; /* Make elements full width on smaller screens */
+      max-width: none; /* Remove maximum width */
+      margin-top: 2rem; /* Adjust margin */
+    }
+  
+    .faq-right {
+      margin-left: 0; /* Remove left margin */
+    }
+  }

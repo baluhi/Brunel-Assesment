@@ -1,0 +1,102 @@
+
+.nav-container{
+  overflow-x:hidden ;
+}
+.navbar {
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  text-align: center;
+  top: 24px;
+  left: 24px;
+  padding: 16.97px 20.89px 16.97px 52.22px;
+  gap: 0px;
+  border-radius: 65.28px;
+  border: 1px solid rgb(223, 221, 221);
+  justify-content: space-between;
+  opacity: 0px;
+}
+
+.nav-left svg {
+  width: 121px;
+  height: 30.5px;
+  top: 7.86px;
+  left: 6.78px;
+  gap: 0px;
+  opacity: 0px;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-btns {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 189.56px;
+  height: 77.22px;
+  padding: 26.11px 41.78px 26.11px 41.78px;
+  border-radius: 107.06px;
+  border: 1px solid rgb(223, 221, 221);
+  opacity: 0px;
+  color: #1c1c1c;
+  position: relative;
+  left: -10px;
+  background-color: #fff;
+}
+.onboard-btn {
+  background-color: #1c1c1c;
+  width: 189.56px;
+  height: 77.22px;
+  padding: 26.11px 41.78px 26.11px 41.78px;
+  border-radius: 107.06px;
+  border: 1.31px;
+  opacity: 0px;
+}
+
+.login-btn:hover {
+  background-color: rgb(93, 142, 138);
+  transition: ease-out 1s;
+}
+.onboard-btn:hover {
+  background-color: #b4aaaa;
+  transition: ease-out 1s;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+
+ 
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+    
+    .nav-left svg {
+      width: 80px; /* Adjust SVG width for smaller screens */
+      height: 20px; /* Adjust SVG height for smaller screens */
+    }
+    
+    .nav-btns {
+      flex-direction: column; /* Arrange buttons vertically on smaller screens */
+    }
+    
+    .login-btn,
+    .onboard-btn {
+      width: 100%; /* Make buttons full width on smaller screens */
+      margin-bottom: 1rem; /* Add space between buttons on smaller screens */
+    }
+  }
+  
